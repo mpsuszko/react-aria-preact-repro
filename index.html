@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Aria + Preact 11 repro</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.4; }
+      section { border: 1px solid #ccc; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; max-width: 640px; }
+      [role="listbox"] { display: flex; gap: 8px; padding: 0; margin: 8px 0; }
+      [role="option"] { border: 1px solid #999; border-radius: 4px; padding: 2px 10px; }
+      [data-focused] { outline: 2px solid #0a66ff; }
+      [data-selected] { background: #dbe7ff; }
+      .error { color: #b00020; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
